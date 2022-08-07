@@ -1,7 +1,7 @@
 # This application contains the following API endpoints
 
 1. POST /set
-2. GET /get/<key>
+2. GET /get/:key
 3. GET /search?prefix=&suffix=
 
 
