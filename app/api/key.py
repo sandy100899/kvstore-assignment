@@ -6,6 +6,8 @@ from typing import List
 
 router = APIRouter()
 
+# Just for testing purpose
+
 @router.post("/set", status_code=status.HTTP_201_CREATED, response_model=KeyValue)
 def set_key_value(
     key_value: KeyValue
